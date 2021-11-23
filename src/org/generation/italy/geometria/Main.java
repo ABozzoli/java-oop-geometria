@@ -20,9 +20,9 @@ public class Main {
 		Rettangolo rettangoloUtente = new Rettangolo(baseUtente, altezzaUtente);
 		
 		// calcola area e perimetro
-		rettangoloUtente.calcolaArea();
+		System.out.println("Area: " + rettangoloUtente.calcolaArea());
 		
-		rettangoloUtente.calcolaPerimetro();
+		System.out.println("Perimetro: " + rettangoloUtente.calcolaPerimetro());
 		
 		// Scanner close
 		scan.close();

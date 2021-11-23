@@ -13,14 +13,14 @@ public class Rettangolo {
 	}
 	
 	// metodi
-	void calcolaArea() {
+	int calcolaArea() {
 		int area = base * altezza;
-		System.out.println("Area: " + area);
+		return area;
 	}
 	
-	void calcolaPerimetro() {
-		int perimetro = base * 2 + altezza *2;
-		System.out.println("Perimetro: " + perimetro);
+	int calcolaPerimetro() {
+		int perimetro = base * 2 + altezza * 2;
+		return perimetro;
 	}
 	
 }
