@@ -12,4 +12,15 @@ public class Rettangolo {
 		this.altezza = altezza;
 	}
 	
+	// metodi
+	void calcolaArea() {
+		int area = base * altezza;
+		System.out.println("Area: " + area);
+	}
+	
+	void calcolaPerimetro() {
+		int perimetro = base * 2 + altezza *2;
+		System.out.println("Perimetro: " + perimetro);
+	}
+	
 }
